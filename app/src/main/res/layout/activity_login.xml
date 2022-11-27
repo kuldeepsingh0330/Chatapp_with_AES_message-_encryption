@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    tools:context=".Activity.loginActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_marginTop="32dp"
+            app:srcCompat="@drawable/chatappicon" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="ChatApp will send an SMS message to verify your phone number. Enter your country code and phone number."
+            android:textStyle="bold" />
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ACAAAA"
+            app:ccpDialog_backgroundColor="@drawable/progress_dialogcorner"
+            app:ccpDialog_cornerRadius="20dp"
+            app:ccp_showFullName="true"
+            app:ccp_showNameCode="true"
+            app:ccp_showPhoneCode="true" />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+        <Button
+            android:id="@+id/btnPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="next" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

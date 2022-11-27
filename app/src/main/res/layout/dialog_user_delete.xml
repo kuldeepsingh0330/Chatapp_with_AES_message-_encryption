@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/progress_dialogcorner">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="Permanently Delete "
+        android:textSize="20sp" />
+
+        <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_gravity="center"
+        android:text="chat?"
+        android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#C3C2C2" />
+
+    <TextView
+        android:id="@+id/tvDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:text="DELETE"
+        android:textColor="#FF0000"/>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#C3C2C2" />
+
+    <TextView
+        android:id="@+id/tvCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="CANCEL" />
+</LinearLayout>

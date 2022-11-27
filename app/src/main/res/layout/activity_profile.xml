@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.profile">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/avatar"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="65dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="@+id/tvUserNmae"
+        app:layout_constraintStart_toStartOf="@+id/profile_image"
+        app:layout_constraintTop_toTopOf="@+id/profile_image"
+        app:srcCompat="@drawable/camera_alt_24" />
+
+    <EditText
+        android:id="@+id/tvUserNmae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="70dp"
+        android:hint="Name"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fabProfile" />
+
+    <EditText
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="70dp"
+        android:hint="About..."
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserNmae" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="Continue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about" />
+</androidx.constraintlayout.widget.ConstraintLayout>

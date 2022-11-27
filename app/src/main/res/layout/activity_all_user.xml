@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AllUser">
+
+    <include
+        android:id="@+id/alltoolbar"
+        layout="@layout/toolbar_alluser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvnouser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No user found"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/alltoolbar"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/allUserRefresh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/alltoolbar">
+
+        <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+            android:id="@+id/recy"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/display_alluser"
+            app:shimmer_demo_child_count="15"
+            app:shimmer_demo_grid_child_count="2"
+            app:shimmer_demo_layout="@layout/shimmer_layout"
+            app:shimmer_demo_layout_manager_type="linear_vertical"
+            app:shimmer_demo_angle="20" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

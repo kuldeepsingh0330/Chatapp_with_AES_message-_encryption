@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/progress_dialogcorner">
+
+    <ImageView
+        android:id="@+id/popUserBAck"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@id/popdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/popdp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/avatar"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toEndOf="@+id/popUserBAck"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/poptvAbout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Tap to chat"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poptvUserNmae" />
+
+    <TextView
+        android:id="@+id/poptvUserNmae"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="fufuyggg"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popdp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarMain"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"/>
+
+    <ImageView
+        android:id="@+id/ivapp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chatappicon" />
+
+    <TextView
+        android:id="@+id/nameapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"/>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

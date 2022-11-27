@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/account_circle_24.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/add.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/avatar.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/back.xml" value="0.1" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/circle_bg.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/emoji.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/key_dialog_bg.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/lock.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/logout.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/msgbg.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/progress_dialogcorner.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/recemsgbg.xml" value="0.1535" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/recievemessagebg.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/send.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/sentmessagebg.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/sentmsgbd.xml" value="0.1535" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/sentmsgbg.xml" value="0.1535" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/shimmer_bg.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/splash_bg.xml" value="0.1" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/drawable/startchat_bg.xml" value="0.1565" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_all_user.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_bottom_sheet_dialog.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_chat.xml" value="0.33" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_enter_key_bottom.xml" value="0.25" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_login.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_otp.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/activity_view_user_image.xml" value="0.22" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/alluser_display.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/allusertoolbar.xml" value="0.20833333333333334" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/amin_toolbar.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/chatdisplay.xml" value="0.33" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/delete_dialog.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/demo_layout.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/dialog_delete.xml" value="0.33" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/dialog_user_delete.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/dialouge_key.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/display_image.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/display_user.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/fragment_enter_key.xml" value="0.1953125" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/item_receive.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/key_dialouge.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/key_input.xml" value="0.20833333333333334" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/main_toolbar.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/message_receive.xml" value="0.36929460580912865" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/message_sent.xml" value="0.75" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/please_wait.xml" value="0.33" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/pop_user.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/shimmer_layout.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/text_view_emoji.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/toolbar_alluser.xml" value="0.2" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/toolbar_lluser.xml" value="0.20833333333333334" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/toolbar_main.xml" value="0.209375" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/layout/userdisplay.xml" value="0.25" />
+        <entry key="..\:/CHATAPP FOLDER/Chatapp/app/src/main/res/menu/man_activity.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

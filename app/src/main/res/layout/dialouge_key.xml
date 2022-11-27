@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/progress_dialogcorner">
+
+    <TextView
+        android:id="@+id/tvmainkey"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Key"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_margin="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:visibility="visible"
+        android:id="@+id/etKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="textMultiLine|textPersonName"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvKey"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="20sp"
+        android:gravity="center"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <Button
+        android:visibility="visible"
+        android:layout_weight="1"
+        android:id="@+id/btnKey"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sentmsgbg"
+        android:text="Continue" />
+
+    <Button
+        android:visibility="visible"
+        android:layout_weight="1"
+        android:id="@+id/btncancel"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sentmsgbg"
+        android:text="Cancel" />
+
+</LinearLayout>
+
+
+</LinearLayout>

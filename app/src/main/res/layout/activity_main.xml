@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <include
+        android:id="@+id/toolbarMain"
+        layout="@layout/toolbar_main" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMain">
+
+
+        <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+            android:id="@+id/recyclerViewMain"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/display_user"
+            app:shimmer_demo_child_count="15"
+            app:shimmer_demo_grid_child_count="2"
+            app:shimmer_demo_layout="@layout/shimmer_layout"
+            app:shimmer_demo_layout_manager_type="linear_vertical"
+            app:shimmer_demo_angle="20"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout
+        android:id="@+id/startChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/startchat_bg"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@id/alluserfloat"
+        app:layout_constraintBottom_toBottomOf="parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="3dp"
+        android:text="Start Chat"
+        android:fontFamily="@font/alfa_slab_one"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forward_24"/>
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/alluserfloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="323dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        app:tint="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/chatappicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
